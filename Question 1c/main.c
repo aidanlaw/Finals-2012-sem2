@@ -37,11 +37,9 @@ int main(void)
     
     char response = "n";
                 //  illegal
-                //  as it creates a character variable char known as response
-                //  anytime the response variable is printed, the character "n" will be presented
-                //  but it needs to have [number] to show the amount of characters needed to handle
+                //needs single thingos 'n' not double "n"
                 //example
-    char response[3] = "n";
+    char response = 'n';
     printf("%s\n", response);
     
     
